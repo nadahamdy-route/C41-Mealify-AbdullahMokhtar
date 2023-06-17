@@ -1,0 +1,117 @@
+@media screen and (max-width: 1200px) {
+  nav {
+    display: none;
+  }
+
+  .disp {
+    display: block;
+  }
+
+  footer .container {
+    flex-wrap: wrap;
+  }
+
+  .about {
+    width: 40%;
+  }
+
+  .subscription {
+    width: 100%;
+    order: 1;
+  }
+
+  .touch {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section#home .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .home-image {
+    width: 100%;
+  }
+
+  .home-content h2,
+  .home-content p {
+    text-align: center;
+  }
+
+  .home-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .book-btn {
+    border-radius: 2rem;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .meals {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .category {
+    width: 45%;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .contact-form input {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-image {
+    width: 40%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .category {
+    width: 100%;
+  }
+
+  .contact-informations {
+    flex-direction: column;
+  }
+
+  .contact-information {
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .subscription {
+    order: 0;
+  }
+
+  .touch {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}

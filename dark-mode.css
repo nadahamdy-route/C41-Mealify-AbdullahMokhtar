@@ -1,0 +1,56 @@
+html:has(input:checked) {
+  --main-color: #c17e1f;
+  --main-bg-color: #252525;
+  --main-font-color: #fff;
+  --active-link-color: #fff;
+  --sec-font-color: #fff;
+  --sec-bg-color: #202020;
+  --dark-color: #171717;
+  --third-font-color: #9f9f9f;
+}
+
+html:has(input:checked) .dark-mode i:first-of-type{
+    display: none;
+}
+
+html:has(input:checked) header {
+  background-color: var(--dark-color);
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+html:has(input:checked) nav li:hover {
+  color: #fff;
+}
+
+html:has(input:checked) .home-content p {
+  color: #9f9f9f;
+}
+
+html:has(input:checked) .btn {
+  color: var(--dark-color);
+}
+
+html:has(input:checked) .watch-btn {
+  color: #fff;
+}
+
+html:has(input:checked) .watch-btn i {
+  background-color: var(--dark-color);
+}
+
+html:has(input:checked) .card {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  background-color: var(--dark-color);
+}
+
+html:has(input:checked) svg path {
+  fill: var(--dark-color);
+}
+
+html:has(input:checked) .contact-information{
+    background-color: #000;
+}
+
+html:has(input:checked) .contact-form{
+ background-color: var(--dark-color);   
+}
